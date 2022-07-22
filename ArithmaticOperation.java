@@ -4,11 +4,11 @@ public class ArithmaticOperation{
 
 	public static void main(String args[]){
 	
-	Scanner scan = new Scanner(System.in);
+	//Scanner scan = new Scanner(System.in);
 	System.out.println("Enter 2 positive numbers :");
 
-	int a = scan.nextInt();
-	int b = scan.nextInt();
+	int a = 10;
+	int b = 2;
 	System.out.println(a + "+" + b + " = " + (a+b));
 	System.out.println(a + "-" + b + " = " + (a-b));
 	System.out.println(a + "*" + b + " = " + (a*b));
